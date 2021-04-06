@@ -80,7 +80,7 @@ namespace ariel {
 
         /** This method will return the word thats read from the function read
          @note if the length of reading is greater than word length ,
-               this method will continue concatenating by empty symbol "_" 
+               this method will continue concatenating by empty symbol : "" 
                else , index is equal to length. **/
 
         string Board::getWord(uint index , uint length , string word) {

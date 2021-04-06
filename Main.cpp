@@ -9,7 +9,7 @@ int main() {
  	ariel::Board board;
     // declaration of all variables
     uint row , column , length;
-    int func; // read is 2 , show is 3.
+    int func;
     int dir;
     string message;
     Direction direction;
@@ -46,7 +46,7 @@ int main() {
                     else cout << "Wrong input , please try again. \n";
 
                     break;
-
+        //read function
         case 2:         cout << "\033[1;33mYou choose : Read\033[0m \n";
                         cout << "Please enter the position by two indexes [i][j]\n";
                         cin >> row >> column;
@@ -71,7 +71,7 @@ int main() {
                         }
                         else cout << "Wrong input , please try again. \n";
                         break;
-
+        //show function
         case 3:       cout << "\033[1;34mYou choose : Show\033[0m \n";
                       cout << "The message board is :\n";
                       board.show();
